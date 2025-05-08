@@ -1,0 +1,35 @@
+.calculadora-container {
+  background-color: #f9f9f9;
+  padding: 2rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  max-width: 400px;
+  margin: 2rem auto;
+  text-align: center;
+  font-family: sans-serif;
+}
+
+.calculadora-container input {
+  display: block;
+  margin: 0.5rem auto;
+  padding: 0.5rem;
+  width: 80%;
+}
+
+.botoes {
+  margin-top: 1rem;
+}
+
+.botoes button {
+  margin: 0.3rem;
+  padding: 0.4rem 1rem;
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.botoes button:hover {
+  background-color: #45a049;
+}
